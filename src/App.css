@@ -1,0 +1,61 @@
+/* Overall app container */
+.App {
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec); /* soft light gradient */
+}
+
+/* FilteredList section */
+.filter-list {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.filter-list h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Input search box */
+.filter-list input[type="text"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  padding: 8px 0;
+  color: #444;
+}
+
+/* Hover effect */
+li:hover {
+  background-color: #e6f7ff;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* DropdownButton spacing */
+#typeDropdown {
+  margin-bottom: 20px;
+}
